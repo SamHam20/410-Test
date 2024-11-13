@@ -4,7 +4,7 @@
 	<!-- 
 		Final Project CMIS 410
 		Author: Sam Hammons
-		Date: 11/6/24
+		Date: 11/13/24                                                                                                                 /24
 		
 		These web pages are for educational purposes only, all content should be considered fictional. 
 	
@@ -12,7 +12,6 @@
 
 <meta http-equiv = "Content-Type" content = "text/html; charset=utf-8" />
 <title>Caffeine Craze</title>
-	<link href="contact.html" />
    <link href="styles.css" rel="stylesheet" />
 
 
@@ -42,37 +41,50 @@
 	 
 <article id = "main"> 
 
-<h3>Wake up and smell the coffee...and the pastries, too! Caffeine Craze is your one-stop shop for all things delicious. 
-Come and let us fuel your day, one sip at a time.
-</h3>
+<h2>Want To Contact Us? Fill Out The Form Below! </h2>
 
 
-<img src = "images/worker.png" alt = "man working in shop"  />
+
+<form>
+
+		<div class="formRow">
+			<label for="fname">First Name</label>
+			<input name="custFname" id="fname" type="text" />
+		</div>
+		
+		<div class="formRow">
+			<label for="lname">Last Name</label>
+			<input name="custLname" id="lname" type="text" />
+		</div>	
+	
+	<div class="formRow">
+			<label for="mail">Email</label>
+			<input name="custEmail" id="mail" type="email" />
+		</div>	
+		
+	<label for="commBox">Tell us more about your experience!</label>
+		<textarea name="custExp" id="commBox"></textarea>
+	
+	<div id="buttons">
+			<input type="submit" value="Submit" />
+			<input type="reset" value="Cancel" />
+		</div>
+	
+	
+
+</form>
 
 
-<h4> Wake Up, Savor the Moment, and Fuel Your Day -- One Perfect Cup At a Time. </h4>
+
 
 </article> <!-- end main -->
 
 <aside> 
 
-<h3> Hours </h3>
-	
-	<p>Monday: 6:00 a.m. - 8:00 p.m.</p>
-	<p>Tuesday: 6:00 a.m. - 8:00 p.m.</p>
-	<p>Wednesday:  6:00 a.m. - 8:00 p.m.</p>
-	<p>Thursday:  6:00 a.m. - 8:00 p.m.</p>
-	<p>Friday:  6:00 a.m. - 9:00 p.m.</p>
-	<p>Saturday:  6:00 a.m. - 9:00 p.m.</p>
-	<p>Sunday: 7:00 a.m. - 8:00 p.m.</p>
-
 <figure>
   <img src = "images/coffeecup.jpg" alt = "Small Coffee Cup"  />
+<h4>Wake Up, Savor the Moment, and Fuel Your Day -- One Perfect Cup At a Time.</h4>
 
-  <figcaption>
-    
-	
-  </figcaption> 
 </figure>
 
 </aside>   

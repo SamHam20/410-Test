@@ -3,7 +3,7 @@
    sample start file for final project - educational use only
    
    Author:   Sam Hammons
-   Date:    11/6/24 
+   Date:    11/13/24 
    
   
 
@@ -25,6 +25,21 @@ body {
     border-width: 1px;
     margin: 0 auto;
     background-color: white;
+}
+
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+
+div.formRow > * {
+	flex: 1 1 150px;
+}
+
+div#buttons {
+	text-align: center;
+	width: 100%;
 }
 
 
@@ -53,7 +68,7 @@ nav ul {
 
 nav ul li a {
     padding: 5px;
-    color: gray;
+    color: #d9883e;
     text-decoration: none;
     display:block;
 }
@@ -67,11 +82,20 @@ nav ul li a:hover {
 #main {
     width: 446px;
     padding: 10px;
+	padding-block: 1px;
     float: left;
     color: black;
     border-left: 2px solid;
-    border-right: 2px solid;    
-    background-image: url(images/ricepaper.jpg); 
+    border-right: 2px solid;
+	overflow: 0px;
+	
+}
+
+form {
+	width: 446px;
+    padding: 10px;
+    float: left;
+    color: black; 
 }
 
 #main p {
@@ -120,9 +144,9 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: gray;
+    background-color: #0f1e21;
     clear: both;
-    color: wheat;
+    color: #d9883e;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -136,13 +160,13 @@ footer {
     border-radius: 25px;
 }/* navigation for footer */
 footer a:link {
-    color: white;
+    color: #d9883e;
     text-decoration: none;
 }
 
 footer a:visited {
-    color: orange;
-    background-color: grey;
+    color: #d9883e;
+    background-color: #0f1e21;
     text-decoration: none;
 }
 
