@@ -3,7 +3,7 @@
    sample start file for final project - educational use only
    
    Author:   Sam Hammons
-   Date:    11/13/24 
+   Date:    11/18/24 
    
   
 
@@ -51,6 +51,22 @@ header {
     border: 1px solid #888888;
     box-shadow: 15px 15px 5px 0 #888888;
     border-radius: 25px;  	
+}
+
+table {
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid  #d9883e;
+	text-align: left;
+	padding: 8px;
+}
+
+tr:nth-child(even) {
+	background-color:  #d9883e;
 }
 
 nav {
