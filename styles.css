@@ -59,6 +59,12 @@ img.imgWork {
 	display: block;
 }
 
+img.imgBre {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
 table {
 	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
