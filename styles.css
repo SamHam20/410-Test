@@ -53,6 +53,12 @@ header {
     border-radius: 25px;  	
 }
 
+img.imgWork {
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
 table {
 	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
