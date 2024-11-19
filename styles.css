@@ -50,7 +50,8 @@ header {
     text-align: center;
     border: 1px solid #888888;
     box-shadow: 15px 15px 5px 0 #888888;
-    border-radius: 25px;  	
+    border-radius: 25px;  
+    background-color:#0f1e21;
 }
 
 img.imgWork {
