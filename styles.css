@@ -65,6 +65,12 @@ img.imgBre {
 	display: block;
 }
 
+img.imgLogo{
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+}
+
 table {
 	font-family: Arial, Helvetica, sans-serif;
 	border-collapse: collapse;
