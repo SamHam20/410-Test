@@ -3,7 +3,7 @@
    sample start file for final project - educational use only
    
    Author:   Sam Hammons
-   Date:    11/18/24 
+   Date:    11/20/24 
    
   
 
@@ -17,7 +17,7 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+	background-image: url("background.jpg");
 }
 
 #container {
@@ -51,7 +51,7 @@ header {
     border: 1px solid #888888;
     box-shadow: 15px 15px 5px 0 #888888;
     border-radius: 25px;  
-    background-color:#0f1e21;
+    background-color:black;
 }
 
 img.imgWork {
@@ -79,13 +79,17 @@ table {
 }
 
 td, th {
-	border: 1px solid  #d9883e;
+	border: 1px solid  white;
 	text-align: left;
 	padding: 8px;
 }
 
 tr:nth-child(even) {
-	background-color:  #d9883e;
+	background-color: #C4A484;
+}
+
+tr:nth-child(odd) {
+	background-color: #F9E4BC;
 }
 
 nav {
@@ -177,9 +181,9 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: #0f1e21;
+    background-color:#d9883e;			
     clear: both;
-    color: #d9883e;
+    color: white;
     font-weight: bold;
     text-align: center;
 	border-bottom-left-radius: 25px;
@@ -193,12 +197,12 @@ footer {
     border-radius: 25px;
 }/* navigation for footer */
 footer a:link {
-    color: #d9883e;
+    color: white;
     text-decoration: none;
 }
 
 footer a:visited {
-    color: #d9883e;
+    color: white;
     background-color: #0f1e21;
     text-decoration: none;
 }
